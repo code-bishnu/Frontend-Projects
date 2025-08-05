@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - LearnHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">LearnHub</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="#" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="courses-header">
+        <div class="container">
+            <h1>Browse Our Courses</h1>
+            <p>Find the perfect course to advance your skills and career.</p>
+            <div class="search-filter">
+                <input type="text" placeholder="Search courses...">
+                <select>
+                    <option>All Categories</option>
+                    <option>Web Development</option>
+                    <option>Data Science</option>
+                    <option>Mobile Development</option>
+                    <option>Design</option>
+                    <option>Business</option>
+                </select>
+                <button class="btn-primary">Filter</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-list">
+        <div class="container">
+            <div class="courses-grid">
+                <!-- Course cards will be populated here -->
+                <div class="course-card">
+                    <img src="images/Web Devlopment.jpg" alt="Web Development">
+                    <h3>Web Development Bootcamp</h3>
+                    <p>Learn HTML, CSS, JavaScript and more</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-star"></i> 4.8</span>
+                        <span><i class="fas fa-user-graduate"></i> 1.2k</span>
+                        <span><i class="fas fa-clock"></i> 45h</span>
+                    </div>
+                    <a href="course-detail.html" class="btn-secondary">View Course</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/Data Science.jpg" alt="Data Science">
+                    <h3>Data Science Fundamentals</h3>
+                    <p>Master Python, Pandas, and Data Visualization</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-star"></i> 4.7</span>
+                        <span><i class="fas fa-user-graduate"></i> 890</span>
+                        <span><i class="fas fa-clock"></i> 60h</span>
+                    </div>
+                    <a href="course-detail.html" class="btn-secondary">View Course</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/Mobile Dev.jpg" alt="Mobile Development">
+                    <h3>Mobile App Development</h3>
+                    <p>Build iOS and Android apps with Flutter</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-star"></i> 4.9</span>
+                        <span><i class="fas fa-user-graduate"></i> 1.5k</span>
+                        <span><i class="fas fa-clock"></i> 50h</span>
+                    </div>
+                    <a href="course-detail.html" class="btn-secondary">View Course</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/ui-ux.jpg" alt="UI/UX Design">
+                    <h3>UI/UX Design Masterclass</h3>
+                    <p>Learn design principles and tools like Figma</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-star"></i> 4.6</span>
+                        <span><i class="fas fa-user-graduate"></i> 750</span>
+                        <span><i class="fas fa-clock"></i> 40h</span>
+                    </div>
+                    <a href="course-detail.html" class="btn-secondary">View Course</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/python.jpg" alt="Python Programming">
+                    <h3>Python for Beginners</h3>
+                    <p>Start your programming journey with Python</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-star"></i> 4.8</span>
+                        <span><i class="fas fa-user-graduate"></i> 2.3k</span>
+                        <span><i class="fas fa-clock"></i> 30h</span>
+                    </div>
+                    <a href="course-detail.html" class="btn-secondary">View Course</a>
+                </div>
+                <div class="course-card">
+                    <img src="images/marketing.jpg" alt="Digital Marketing">
+                    <h3>Digital Marketing Strategy</h3>
+                    <p>Learn SEO, Social Media, and Content Marketing</p>
+                    <div class="course-meta">
+                        <span><i class="fas fa-star"></i> 4.5</span>
+                        <span><i class="fas fa-user-graduate"></i> 1.1k</span>
+                        <span><i class="fas fa-clock"></i> 35h</span>
+                    </div>
+                    <a href="course-detail.html" class="btn-secondary">View Course</a>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LearnHub</h3>
+                    <p>Empowering learners worldwide with quality education.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@learnhub.com</p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 LearnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
